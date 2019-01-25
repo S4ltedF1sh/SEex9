@@ -1,8 +1,11 @@
 language: java
 install: true
 
+os:
+  - window
+
 jdk:
-  - oraclejdk8
+  - jdk 1.8
 
 script:
   - gradlew.bat build
