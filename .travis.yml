@@ -5,7 +5,7 @@ os:
   - window
 
 jdk:
-  - jdk 1.8
+  - jdk 1.8.0_151
 
 script:
   - gradlew.bat build
